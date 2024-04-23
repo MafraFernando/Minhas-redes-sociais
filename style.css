@@ -1,6 +1,14 @@
-@charset 'UTF-08';
+@charset "UTF-08";
 
 section#fundo {
     background: url('imagens/fundo.webp');
-    
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+section#rede {
+    background: url('imagens/logo-instagram.jpg');
+    position: -30% -50%;
 }
