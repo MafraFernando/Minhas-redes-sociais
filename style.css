@@ -1,14 +1,31 @@
 @charset "UTF-08";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 section#fundo {
     background: url('imagens/fundo.webp');
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
-
+    text-align: right;
 }
 
 section#rede {
-    background: url('imagens/logo-instagram.jpg');
-    position: -30% -50%;
+   
+    position: absolute;
+
 }
+
+section#rede img {
+    position: relative;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 370px;
+    right: -245px;
+    margin: 5px;
+}
+
